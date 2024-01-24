@@ -26,42 +26,16 @@
         </ul>
     </div>
 
-    <form>
-        Do you want a cupcake? <br>
-        <input type="radio" id="cupyes" name="item_request" value="yes">
-        <label for="yes">Yes</label>
+    <form action="./index.html">
+        Select what you would like to order:<br>
+        <input type="checkbox" id="cupcake" name="item_request" value="cupcake">
+        <label for="cupcake">Cupcake</label>
         <br>
-        <input type="radio" id="cupno" name="item_request" value="no">
-        <label for="yes">No</label>
+        <input type="checkbox" id="croissant" name="item_request" value="croissant">
+        <label for="croissant">Croissant</label>
         <br>
-        <input type="radio" id="cupmaybe" name="item_request" value="maybe">
-        <label for="yes">Maybe</label>
-
-        <br>
-        <br>
-
-        Do you want a crossaint? <br>
-        <input type="radio" id="croyes" name="item_request" value="yes">
-        <label for="yes">Yes</label>
-        <br>
-        <input type="radio" id="crono" name="item_request" value="no">
-        <label for="yes">No</label>
-        <br>
-        <input type="radio" id="cromaybe" name="item_request" value="maybe">
-        <label for="yes">Maybe</label>
-
-        <br>
-        <br>
-
-        Do you want a macaron? <br>
-        <input type="radio" id="macryes" name="item_request" value="yes">
-        <label for="yes">Yes</label>
-        <br>
-        <input type="radio" id="macrno" name="item_request" value="no">
-        <label for="yes">No</label>
-        <br>
-        <input type="radio" id="macrmaybe" name="item_request" value="maybe">
-        <label for="yes">Maybe</label>
+        <input type="checkbox" id="macaron" name="item_request" value="macaron">
+        <label for="macaron">Macaron</label>
 
         <br>
         <br>
@@ -77,9 +51,11 @@
         <input type="number">
         <br>
         <br>
-        <!-- button -->
-        <input type="submit" >
-    </form>
+        <form action="./index.html" method="post">
+            <!-- button -->
+            <input type="submit">
+
+        </form>
 
 
 
